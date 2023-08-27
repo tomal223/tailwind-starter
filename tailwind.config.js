@@ -7,6 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+        container: {
+          center: true,
+          padding: {
+            DEFAULT: "13px",
+            sm: "15px",
+            lg: "15px",
+            xl: "15px",
+          },
+          screens: {
+            sm: "600px",
+            md: "768px",
+            lg: "1024px",
+            xl: "1281px",
+          },
+        },
       backgroundColor: {
         'bg-gray': '#000'
       },
